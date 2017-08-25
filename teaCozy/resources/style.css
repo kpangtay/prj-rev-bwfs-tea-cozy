@@ -1,0 +1,166 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+}
+
+/*Header Section*/
+header{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  opacity:0.9;
+}
+
+.logo img{
+  height: 50px;
+  width:auto;
+  max-width: 100%;
+  padding-left: 10px;
+}
+
+nav{
+  text-align: right;
+	flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding-right: 30px;
+  text-decoration: underline;
+}
+
+nav a{
+  color: seashell;
+}
+
+/*Sizing*/
+.main{
+  padding-top: 69px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2, h4, h5,{
+  margin: 0;
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+  opacity: 1;
+  text-align: center;
+}
+
+#mission{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.missiontext{
+  width: 1200px;
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+/*Tea of the Month*/
+#featured{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding: 70px;
+}
+
+.featuredtea{
+  padding: 5px;
+}
+
+.featuredtea img{
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+.featuredtea span{
+  display: block;
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Locations*/
+#locations {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.addresses {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 40px;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  background-color: black
+}
+
+h3,{
+  margin: 0;
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+  opacity: 1;
+  text-align: center;
+}
+
+p{
+  margin: 0;
+  padding-top: 30px;
+  display: block;
+  font-weight: normal;
+  opacity: 1;
+  text-align: center;
+}
+
+/*Footer Section*/
+.footer{
+  padding-top: 10px;
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
